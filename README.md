@@ -34,7 +34,7 @@ REFRESH_TOKEN=
 
 ### `config.json`
 
-A `congfig.json`-ban átállíthatod a parancs prefixet, a havi lejátszott listát és a számkérés listát
+A `config.json`-ban átállíthatod a parancs prefixet, a havi lejátszott listát és a számkérés listát
 
 ```json
 {
