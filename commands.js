@@ -229,15 +229,16 @@ module.exports = {
                   spotifySzamok.body.tracks.items[i].uri,
                 ]);
                 // Majd töröljük az összes üzenetet
-                await Promise.all(messages.map((mess) => mess.delete()));
                 // És reagálunk, hogy hozzáadtuk xyz számot a listához
                 message.reply(
                   `Oké, hozzáadtam a(z) ${spotifySzamok.body.tracks.items[i].name}-t a számkérésekhez!`
                 );
                 // Ha az egyik szám helyes fölösleges a többire is megnézni, kiléphetünk a loopból
+                await Promise.all(messages.map((mess) => mess.delete()));
                 break;
               } else {
                 // Ha nem játszható az i. szám
+                await Promise.all(messages.map((mess) => mess.delete()));
                 message.reply('Sajnálom, de ezt a számot nem játszhatjuk le');
               }
             }
