@@ -23,7 +23,7 @@ REFRESH_TOKEN=ez egyelőre maradjon üres
 
 A Spotify client ID-t és secret-et a Spotify dev oldaláról tudod kimásolni, ha csináltál fejlesztőként Spotify alkalmazást.
 
-A megfelelő adatokat szóköz nélkül írt az = után, minden változót külön sorba. A kész fájl valahogy így fog kinézni:
+A megfelelő adatokat szóköz nélkül írd az = után, minden változót külön sorba. A kész fájl valahogy így fog kinézni:
 
 ```
 DC_TOKEN=NzA3MzMwkfDotlA0NTI5MTUz.XrH4pK.R_jidZFRz6-Rm6kAGq_KD872xHc
